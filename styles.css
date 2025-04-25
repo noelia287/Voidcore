@@ -196,6 +196,16 @@ nav {
     color: #a8d7e7;
 }
 
+.historia-empresa .destacat {
+    background-color: rgba(41, 41, 71, 0.4); 
+    color: #ffffff; 
+    font-size: 1.2rem; 
+    padding: 20px; 
+    border-radius: 10px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    box-shadow: 0 0 15px rgba(38, 38, 87, 0.5); 
+}
 
 /* Estils per la llista */
 .subti-neon {
