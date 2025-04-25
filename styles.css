@@ -73,25 +73,25 @@ nav {
 
 /* Estils del botó de canvi d'idioma de les pàgines */
 .llengua-button {
-    background-color: #007BFF; 
+    background-color: #007BFF;
     border: none;
-    color: #fff; 
-    padding: 0.5rem 1.5rem; 
+    color: #fff;
+    padding: 0.5rem 1.5rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1rem; 
-    border-radius: 6px; 
+    font-size: 1.1rem;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     letter-spacing: 0.8px;
-    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);  
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
     margin-left: 2%;
     display: inline-block;
 }
 
 .llengua-button:hover {
-    background-color: #0056b3; 
-    transform: scale(1.1); 
-    box-shadow: 0 6px 15px rgba(0, 86, 179, 0.6); 
+    background-color: #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 86, 179, 0.6);
 }
 
 
@@ -184,42 +184,20 @@ nav {
 
 
 /* Estils història videojoc */
-.historia-contingut {
-    background: rgba(0, 4, 40, 0.6);
-    border: 1px solid rgba(0, 243, 255, 0.3);
-    border-radius: 10px;
-    padding: 2rem;
-    position: relative;
-    backdrop-filter: blur(5px);
-    margin: 2rem 0;
-}
-
-.historia-text {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.9);
+.historia-empresa p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #d0d0d0;
+    text-align: justify;
     margin-bottom: 1.5rem;
 }
 
-.text-destacat {
-    color: #a855f7;
-    font-weight: 500;
-    text-shadow: 0 0 8px rgba(168, 85, 247, 0.3);
+.historia-empresa p strong {
+    color: #a8d7e7;
 }
 
-.fragment-historia {
-    background: rgba(16, 16, 36, 0.5);
-    border-left: 3px solid rgba(0, 243, 255, 0.4);
-    padding: 1.5rem;
-    margin: 2rem 0;
-    position: relative;
-    transition: transform 0.3s ease;
-}
 
-.fragment-historia:hover {
-    transform: translateX(10px);
-}
-
+/* Estils per la llista */
 .subti-neon {
     font-family: 'Orbitron', sans-serif;
     color: rgba(0, 243, 255, 0.8);
@@ -559,5 +537,3 @@ nav {
     font-size: 1.2rem;
     margin-top: 1rem;
 }
-
-
