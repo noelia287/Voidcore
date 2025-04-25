@@ -71,6 +71,20 @@ nav {
     width: 100%;
 }
 
+/* Estils del text neon com a header */
+.neon-header {
+    padding: 1%;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    color: var(--neon-blue);
+    text-shadow: 0 0 10px var(--neon-purple);
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-size: 200%;
+    padding-top: 0%;
+    margin-top: 0px;
+}
+
 /* Estils del botó de canvi d'idioma de les pàgines */
 .llengua-button {
     background-color: #007BFF; 
@@ -93,22 +107,6 @@ nav {
     transform: scale(1.1); 
     box-shadow: 0 6px 15px rgba(0, 86, 179, 0.6); 
 }
-
-
-/* Estils del text neon com a header */
-.neon-header {
-    padding: 1%;
-    font-family: 'Orbitron', sans-serif;
-    text-transform: uppercase;
-    color: var(--neon-blue);
-    text-shadow: 0 0 10px var(--neon-purple);
-    margin-bottom: 2rem;
-    text-align: justify;
-    font-size: 200%;
-    padding-top: 0%;
-    margin-top: 0px;
-}
-
 /* Estils de la imatge del logo */
 .logo img {
     height: 100px;
