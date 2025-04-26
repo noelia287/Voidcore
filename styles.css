@@ -218,6 +218,7 @@ nav {
 .fragment-historia:hover {
     transform: translateX(10px);
 }
+
 /* Estils història empresa voidcore*/
 .historia-empresa p {
     font-size: 1.2rem;
@@ -232,14 +233,14 @@ nav {
 }
 
 .historia-empresa .destacat {
-    background-color: rgba(41, 41, 71, 0.4); 
-    color: #ffffff; 
-    font-size: 1.2rem; 
-    padding: 20px; 
-    border-radius: 10px; 
-    font-weight: bold; 
-    margin-top: 20px; 
-    box-shadow: 0 0 15px rgba(38, 38, 87, 0.5); 
+    background-color: rgba(41, 41, 71, 0.4);
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(38, 38, 87, 0.5);
 }
 
 /* Estils per la llista */

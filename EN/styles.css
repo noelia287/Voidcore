@@ -87,26 +87,27 @@ nav {
 
 /* Estils del botó de canvi d'idioma de les pàgines */
 .llengua-button {
-    background-color: #007BFF; 
+    background-color: #007BFF;
     border: none;
-    color: #fff; 
-    padding: 0.5rem 1.5rem; 
+    color: #fff;
+    padding: 0.5rem 1.5rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1rem; 
-    border-radius: 6px; 
+    font-size: 1.1rem;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     letter-spacing: 0.8px;
-    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4); 
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
     margin-left: 2%;
     display: inline-block;
 }
 
 .llengua-button:hover {
-    background-color: #0056b3; 
-    transform: scale(1.1); 
-    box-shadow: 0 6px 15px rgba(0, 86, 179, 0.6); 
+    background-color: #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 86, 179, 0.6);
 }
+
 /* Estils de la imatge del logo */
 .logo img {
     height: 100px;
@@ -557,5 +558,3 @@ nav {
     font-size: 1.2rem;
     margin-top: 1rem;
 }
-
-
