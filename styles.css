@@ -42,31 +42,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 4, 40, 0.6);
+    background: rgba(0, 4, 40, 0.6); /* Fons més suau */
     border: 2px solid var(--neon-blue);
     border-radius: 10px;
-    padding: 0.5rem 1rem; /* Reduït el padding */
-    box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
-    max-width: 200px; /* Estableix una amplada màxima */
-    width: 100%; /* Permet que es redimensioni, però amb límits */
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.2); /* Suavitzat el efecte de la ombra */
+    max-width: 200px;
+    width: 100%;
 }
 
 .preu {
-    font-size: 2rem; /* Reduït la mida de la font */
+    font-size: 1.8rem; /* Mida més moderada per al text */
     font-family: 'Orbitron', sans-serif;
     color: var(--neon-blue);
-    text-shadow: 0 0 10px var(--neon-purple);
+    text-shadow: 0 0 8px var(--neon-blue); /* Suavitzat el text per a un efecte més subtil */
     margin: 0;
-    text-align: center; /* Centra el text dins del quadrat */
+    text-align: center;
 }
 
-
+/* Estils de crida a l'atenció */
 .crida-atencio-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background: rgba(0, 4, 40, 0.7); /* Fons una mica fosc */
+    background: rgba(0, 4, 40, 0.7); /* Fons més fosc */
     border: 2px solid var(--neon-blue);
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
@@ -76,10 +76,10 @@ body {
 }
 
 .crida-atencio {
-    font-size: 1.8rem;
+    font-size: 1.6rem; /* Mida una mica més petita */
     color: var(--neon-blue);
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 0 0 10px var(--neon-purple);
+    text-shadow: 0 0 8px var(--neon-blue); /* Efecte més suau */
     margin: 0;
 }
 
@@ -87,18 +87,14 @@ body {
     font-weight: bold;
     color: var(--neon-blue);
     text-decoration: none;
-    text-shadow: 0 0 15px var(--neon-purple);
+    text-shadow: 0 0 10px var(--neon-purple);
 }
 
 .crida-atencio .enllaç:hover {
-    color: #fff; /* Canvia de color al passar el ratolí */
+    color: #fff; /* Canvi de color al passar el ratolí */
     text-decoration: underline;
 }
 
-.crida-atencio span {
-    font-weight: bold;
-    color: var(--neon-green);
-}
 
 /* Estils del nav */
 .neon-navs {
