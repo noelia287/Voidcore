@@ -38,6 +38,7 @@ body {
 
 .preu-container {
     margin-top: 2rem;
+    margin-left: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
