@@ -18,8 +18,8 @@ body {
 }
 
 .quadrat-venda {
-    width: 1000px;
-    height: 1000px;
+    width: 550px;
+    height: 550px;
     background-color: #111;
     border: 3px solid var(--neon-purple);
     box-shadow: 0 0 20px var(--neon-purple);
@@ -32,9 +32,8 @@ body {
 }
 
 .quadrat-venda img {
-    width: 150%;
-    height: 150%;
-    object-fit: cover;
+    width: 50%;
+    height: 50%;
 }
 /* Estils del nav */
 .neon-navs {
