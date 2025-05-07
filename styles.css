@@ -44,17 +44,19 @@ body {
     background: rgba(0, 4, 40, 0.6);
     border: 2px solid var(--neon-blue);
     border-radius: 10px;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem; /* Reduït el padding */
     box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+    max-width: 200px; /* Estableix una amplada màxima */
+    width: 100%; /* Permet que es redimensioni, però amb límits */
 }
 
-/* Estils del preu */
 .preu {
-    font-size: 2rem;
+    font-size: 2rem; /* Reduït la mida de la font */
     font-family: 'Orbitron', sans-serif;
     color: var(--neon-blue);
     text-shadow: 0 0 10px var(--neon-purple);
     margin: 0;
+    text-align: center; /* Centra el text dins del quadrat */
 }
 /* Estils del nav */
 .neon-navs {
